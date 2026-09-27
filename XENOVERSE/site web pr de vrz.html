@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personnages - Dragon Ball Xenoverse</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-image: url('wp12454140.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #ffffff;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #112240;
+            border-bottom: 3px solid #64ffda;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #64ffda;
+            text-transform: uppercase;
+        }
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: #64ffda;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .hero-content {
+            background-color: rgba(10, 25, 47, 0.8); 
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(100, 255, 218, 0.2);
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #64ffda;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            color: #ccd6f6;
+        }
+        .features-section {
+            padding: 40px 10%;
+        }
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .card {
+            flex: 1 1 250px;
+            background-color: rgba(17, 34, 64, 0.9);
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #64ffda;
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(100, 255, 218, 0.4);
+        }
+        .card h3 {
+            color: #64ffda;
+            margin-bottom: 10px;
+        }
+        .card p {
+            color: #a8b2d1;
+            font-size: 0.95rem;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .video-container iframe {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(100, 255, 218, 0.4);
+            border: 2px solid #64ffda;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #112240;
+            color: #8892b0;
+            font-size: 0.9rem;
+            border-top: 1px solid #1e3a8a;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Dragon Ball Xenoverse</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#le-jeu">Le Jeu</a></li>
+                <li><a href="personnages.html">Personnages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Les Personnages</h1>
+            <p>Découvrez ce que vous pouvez faire dans Dragon Ball Xenoverse.</p>
+        </div>
+    </section>
+    <section class="features-section">
+        <div class="cards-container">
+            <div class="card">
+                <h3>Création de personnage</h3>
+                <p>Créez votre propre avatar. Choisissez parmi 5 races : Saiyan, Namek, Terrien, Majin et Frieza.</p>
+            </div>
+            <div class="card">
+                <h3>Transformations</h3>
+                <p>Débloquez des transformations  comme le Super Saiyan, ou la forme Golden Frieza.</p>
+            </div>
+            <div class="card">
+                <h3>Maîtres et Techniques</h3>
+                <p>Devenez l'élève de Goku, Vegeta ou Piccolo. Apprenez leurs attaques signatures.</p>
+            </div>
+            <div class="card">
+                <h3>Quêtes Parallèles</h3>
+                <p>Revivez les moments cultes de l'anime ou créez vos propres scénarios.</p>
+            </div>
+        </div>
+    </section>
+    <section class="features-section">
+        <h2 style="color: #64ffda; text-align: center; margin-bottom: 30px;">Création de personnages</h2>
+        <div class="video-container">
+            <!-- Ta vidéo YouTube -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/H7MKHJV0JfA" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>Références : Bandai Namco, Dimps, Toei Animation.</p>
+    </footer>
+
+</body>
+</html>
